@@ -23,4 +23,4 @@ storiesOf('Button', module)
 
 storiesOf('Clock', module).add('clock', () => <Clock />)
 
-storiesOf('Countdown', module).add('countdown', () => <Countdown speed={500} time={10} isTime={false} util={0} />)
+storiesOf('Countdown', module).add('countdown', () => <Countdown speed={500} time={10} isTime={false} until={0} />)
