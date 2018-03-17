@@ -1,6 +1,5 @@
 {
   "name": "react-countdown",
-<<<<<<< HEAD
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,26 +24,4 @@
     "@storybook/addons": "^3.3.15",
     "babel-core": "^6.26.0"
   }
-=======
-  "version": "1.0.0",
-  "description": "A countdown component of react",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/janewuwz/react-countdown.git"
-  },
-  "keywords": [
-    "react",
-    "rxjs"
-  ],
-  "author": "wz",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/janewuwz/react-countdown/issues"
-  },
-  "homepage": "https://github.com/janewuwz/react-countdown#readme"
->>>>>>> 3576c6b757a1a930157cfb908af21a0747be65d2
 }
