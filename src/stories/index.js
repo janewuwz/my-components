@@ -14,6 +14,9 @@ import Toast from './Toast'
 import {setObservableConfig} from 'recompose'
 import config from 'recompose/rxjsObservableConfig'
 
+// styles
+import '../css/styles.css'
+
 setObservableConfig(config)
 //
 
@@ -27,4 +30,6 @@ storiesOf('Clock', module).add('clock', () => <Clock />)
 
 storiesOf('Countdown', module).add('countdown', () => <Countdown speed={500} time={10} isTime={false} until={0} />)
 
-storiesOf('Toast', module).add('toast', () => <Toast show={2000} />)
+storiesOf('Disappear', module).add('disappear', () => <Toast time={2000} message='I will disappear' />)
+
+storiesOf('Toast', module).add('toast', () => <Toast time={2000} message='toast' className='toast' />)
